@@ -1,0 +1,28 @@
+.cart-button{
+    position: relative;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.cart-counter{
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

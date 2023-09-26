@@ -1,0 +1,11 @@
+.products{
+    flex-direction: column;
+    padding-top: 150px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 20px;
+}
+
